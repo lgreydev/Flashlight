@@ -20,7 +20,10 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
     }
 
-    @IBAction func buttonPressed() {
+//    @IBAction func buttonPressed() {
+//    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         isLightOn.toggle()
         view.backgroundColor = isLightOn ? .white : .black
     }
