@@ -11,6 +11,10 @@ class ViewController: UIViewController {
     
     var isLightOn = true
     
+    override var prefersStatusBarHidden: Bool {
+        true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
