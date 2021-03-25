@@ -1,6 +1,6 @@
 # Flashlight
 
-![screenshot](/Screenshots/screenshot-flashlight.jpg)
+![screenshot](/Screenschot/screenshot-flashlight.jpg)
 
 This app can turn on the flashlight on your camera at the click of a button. Also, the application can change color by clicking on the screen, choose the color you like, green, yellow or red.
 
