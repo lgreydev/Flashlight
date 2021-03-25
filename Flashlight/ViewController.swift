@@ -10,17 +10,24 @@ import UIKit
 class ViewController: UIViewController {
     
     var isLightOn = true
+    
+    /// Number of color  for switch
     var colorNumber = 0
     
+    /// Specifies whether the view controller prefers the status bar to be hidden or shown
     override var prefersStatusBarHidden: Bool {
         true
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Start color screen
         view.backgroundColor = .white
     }
 
+    
+    // When pressed, the screen color switches
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         colorNumber += 1
