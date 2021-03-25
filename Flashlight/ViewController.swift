@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var isLightOn = true
+    var colorNumber = 0
     
     override var prefersStatusBarHidden: Bool {
         true
@@ -20,13 +21,21 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
     }
 
-//    @IBAction func buttonPressed() {
-//    }
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        isLightOn.toggle()
-        view.backgroundColor = isLightOn ? .white : .black
+        
+        colorNumber += 1
+        
+        switch colorNumber {
+        case 1:
+            view.backgroundColor = .green
+        case 2:
+            view.backgroundColor = .yellow
+        case 3:
+            view.backgroundColor = .red
+            colorNumber = 0
+        default:
+           break
+        }
     }
-    
 }
 
