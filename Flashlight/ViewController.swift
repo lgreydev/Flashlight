@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         case 2:
             view.backgroundColor = .yellow
         case 3:
-            view.backgroundColor = .red
+            view.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
             colorNumber = 0
         default:
            break
