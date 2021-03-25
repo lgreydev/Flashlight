@@ -2,10 +2,10 @@
 
 ![screenshot](/Screenschot/screenshot-flashlight.jpg)
 
-This app can turn on the flashlight on your camera at the click of a button. Also, the application can change color by clicking on the screen, choose the color you like, green, yellow or red.
+This app can turn on/off the flashlight on your camera by a button click, as well as change colour of the background screen to green, yellow, or red.
 
-The app only works in portrait mode.
+The app works only in a portrait mode.
 
 ## Functional
-- Pressing the button turns on the phone camera flashlight
-- Pressing the screen changes color to green, yellow, red.
+- Pressing the button turns the phone camera flashlight on/off.
+- Pressing the background screen changes colour to green, yellow, or red.
