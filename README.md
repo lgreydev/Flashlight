@@ -1,8 +1,9 @@
 # Flashlight
 
-This is a simple application that switches the screen color on click.
+This app can turn on the flashlight on your camera at the click of a button. Also, the application can change color by clicking on the screen, choose the color you like, green, yellow or red.
 
+The app only works in portrait mode.
 
 ## Functional
-- when you click on the Flashlight button, the screen color changes to white or black.
-- when you press the Aquadisco button, the screen colors change in a random way.
+- Pressing the button turns on the phone camera flashlight
+- Pressing the screen changes color to green, yellow, red.
