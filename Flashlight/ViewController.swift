@@ -10,10 +10,14 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    var isLightOn = true
-    
     /// Number of color  for switch
     var colorNumber = 0
+    
+    /// The button turn on/off camera flashlight
+    var buttonFlashlight = UIButton()
+    
+    /// Image for button flashlight
+    var imageFlashlight = UIImage(systemName: "flashlight.off.fill")?.withTintColor(.gray, renderingMode: .alwaysOriginal)
     
     /// Specifies whether the view controller prefers the status bar to be hidden or shown
     override var prefersStatusBarHidden: Bool {
@@ -22,12 +26,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        // Setting button location
+        buttonFlashlight = UIButton(type: .roundedRect)
+        buttonFlashlight.frame = CGRect(x: 0, y: 0, width: 75, height: 150)
+        buttonFlashlight.setBackgroundImage(imageFlashlight, for: .normal)
+        buttonFlashlight.addTarget(self, action: #selector(toggleFlash), for: .touchDown)
+        buttonFlashlight.center = view.center
         
         // Start color screen
-        view.backgroundColor = .white
+        view.backgroundColor = .black
+        
+        self.view.addSubview(buttonFlashlight)
     }
 
-    
     // When pressed, the screen color switches
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
