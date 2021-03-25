@@ -15,6 +15,7 @@
 		5E7BE66E260B786200CD9232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7BE66C260B786200CD9232 /* LaunchScreen.storyboard */; };
 		5E7BE67E260B79E300CD9232 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E7BE67D260B79E300CD9232 /* .gitignore */; };
 		5E7BE682260B7A1700CD9232 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E7BE681260B7A1700CD9232 /* README.md */; };
+		5E7BE6B0260C8C5E00CD9232 /* screenshot-flashlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E7BE6AF260C8C5E00CD9232 /* screenshot-flashlight.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5E7BE66F260B786200CD9232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7BE67D260B79E300CD9232 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5E7BE681260B7A1700CD9232 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5E7BE6AF260C8C5E00CD9232 /* screenshot-flashlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "screenshot-flashlight.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		5E7BE655260B786100CD9232 = {
 			isa = PBXGroup;
 			children = (
+				5E7BE6AE260C8C2D00CD9232 /* Screenschot */,
 				5E7BE681260B7A1700CD9232 /* README.md */,
 				5E7BE67D260B79E300CD9232 /* .gitignore */,
 				5E7BE660260B786100CD9232 /* Flashlight */,
@@ -71,6 +74,14 @@
 				5E7BE66F260B786200CD9232 /* Info.plist */,
 			);
 			path = Flashlight;
+			sourceTree = "<group>";
+		};
+		5E7BE6AE260C8C2D00CD9232 /* Screenschot */ = {
+			isa = PBXGroup;
+			children = (
+				5E7BE6AF260C8C5E00CD9232 /* screenshot-flashlight.jpg */,
+			);
+			path = Screenschot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 				5E7BE67E260B79E300CD9232 /* .gitignore in Resources */,
 				5E7BE66E260B786200CD9232 /* LaunchScreen.storyboard in Resources */,
 				5E7BE682260B7A1700CD9232 /* README.md in Resources */,
+				5E7BE6B0260C8C5E00CD9232 /* screenshot-flashlight.jpg in Resources */,
 				5E7BE66B260B786200CD9232 /* Assets.xcassets in Resources */,
 				5E7BE669260B786100CD9232 /* Main.storyboard in Resources */,
 			);
