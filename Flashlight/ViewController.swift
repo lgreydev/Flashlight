@@ -11,13 +11,13 @@ import AVFoundation
 class ViewController: UIViewController {
     
     /// Number of color  for switch
-    var colorNumber = 0
+    private var colorNumber = 0
     
     /// The button turn on/off camera flashlight
-    var buttonFlashlight = UIButton()
+    private var buttonFlashlight = UIButton()
     
     /// Image for button flashlight
-    var imageFlashlight = UIImage(systemName: "flashlight.off.fill")?.withTintColor(.gray, renderingMode: .alwaysOriginal)
+    private let imageFlashlight = UIImage(systemName: "flashlight.off.fill")?.withTintColor(.gray, renderingMode: .alwaysOriginal)
     
     /// Specifies whether the view controller prefers the status bar to be hidden or shown
     override var prefersStatusBarHidden: Bool {
